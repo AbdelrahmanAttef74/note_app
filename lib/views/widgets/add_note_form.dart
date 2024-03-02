@@ -51,7 +51,7 @@ class _AddNoteFormState extends State<AddNoteForm> {
                 onTap: () {
                   if (formKey.currentState!.validate()) {
                     formKey.currentState!.save();
-                    var currentDate = DateTime.now();
+                    DateTime currentDate = DateTime.now();
                     var formatedCurrentDate =
                         DateFormat().add_yMd().format(currentDate);
                     var noteModel = NoteModel(
