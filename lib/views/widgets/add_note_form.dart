@@ -48,7 +48,7 @@ class _AddNoteFormState extends State<AddNoteForm> {
               ),
               const SizedBox(height: 30),
               const NotesColorList(),
-              const SizedBox(height: 20),
+              const SizedBox(height: 30),
               CustomBottom(
                 isLoading: state is AddNoteLoading ? true : false,
                 onTap: () {
